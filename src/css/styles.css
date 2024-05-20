@@ -100,3 +100,58 @@ button[data-start]:disabled {
   line-height: 1.5;
   text-transform: uppercase;
 }
+
+.form {
+  padding: 36px 924px 388px 156px;
+  width: 360px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+.form input[type='number'] {
+  width: 340px;
+  height: 40px;
+  margin-top: 8px;
+  margin-bottom: 24px;
+  border: 1px solid #808080;
+  border-radius: 4px;
+  padding: 8px 0px 8px 16px;
+  color: #2e2f42;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+}
+
+fieldset {
+  display: flex;
+  border: 1px solid #808080;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 24px;
+}
+
+legend {
+  padding: 0 5px;
+}
+
+.form button {
+  width: 100%;
+  padding: 8px 16px;
+  border-radius: 8px;
+  background-color: #4e75ff;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.64px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #6c8cff;
+}

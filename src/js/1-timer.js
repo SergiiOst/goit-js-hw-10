@@ -28,6 +28,7 @@ const options = {
         title: 'Error',
         message: 'Please choose a date in the future',
         backgroundColor: '#EF4040',
+        closeOnClick: true,
         position: 'topRight',
       });
       startButton.disabled = true;
